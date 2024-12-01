@@ -1,0 +1,70 @@
+{
+    "cars": [
+        {
+            "car_id": 1,
+            "car_model": "Mustang",
+            "car_manufacturer": "Ford",
+            "manufactured_year": 1967,
+            "engine_type": "V8",
+            "color": "Red",
+            "mileage": 50000,
+            "transmission": "Manual",
+            "car_image":"https://imgs.search.brave.com/AEw39WFxb4lCidJwOoW_sCQHAfQ5ihikSqAUkukNxkg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIyODcx/MjcuanBn"
+        },
+        {
+            "car_id": 2,
+            "car_model": "Corvette",
+            "car_manufacturer": "Chevrolet",
+            "manufactured_year": 1963,
+            "engine_type": "V8",
+            "color": "White",
+            "mileage": 45000,
+            "transmission": "Automatic",
+            "car_image":"https://imgs.search.brave.com/OgSvf9K23uhH-WHuua7ar9bvIQKh2OcSZm_GqwcDkQs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jNC53/YWxscGFwZXJmbGFy/ZS5jb20vd2FsbHBh/cGVyLzkxMC83MDgv/MTEvY29ydmV0dGUt/YzctejA2LWNhci12/ZWhpY2xlLXdoaXRl/LWNhcnMtd2FsbHBh/cGVyLXByZXZpZXcu/anBn"
+        },
+        {
+            "car_id": 3,
+            "car_model": "Beetle",
+            "car_manufacturer": "Volkswagen",
+            "manufactured_year": 1968,
+            "engine_type": "4-cylinder",
+            "color": "Blue",
+            "mileage": 60000,
+            "transmission": "Manual",
+            "car_image":"https://imgs.search.brave.com/xiXvf0nnGG8KndTPHn73M-rqymBLC6a7oFpwVTeM87I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg3LzY4/L2ZjLzg3NjhmYzA4/NGZiMGQzNDQyOWZi/NWI3NWY1MWJiM2E3/LmpwZw"
+        },
+        {
+            "car_id": 4,
+            "car_model": "Mini Cooper",
+            "car_manufacturer": "Mini",
+            "manufactured_year": 1964,
+            "engine_type": "4-cylinder",
+            "color": "Green",
+            "mileage": 55000,
+            "transmission": "Manual",
+            "car_image":"https://imgs.search.brave.com/LdJ99gNhyycCM-MsoogVLfEl4hhqXPGyrQ-vtmV8EOM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC9GWkt1cWZM/LmpwZw"
+        },
+        {
+            "car_id": 5,
+            "car_model": "Camaro",
+            "car_manufacturer": "Chevrolet",
+            "manufactured_year": 1969,
+            "engine_type": "V8",
+            "color": "Orange",
+            "mileage": 40000,
+            "transmission": "Automatic",
+            "car_image":"https://imgs.search.brave.com/hgqPx_9CXzajOilR6rrO5Xqi-sQ6o26d1XD2GfVlj4w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDcx/NTU2NzY1L2l0L2Zv/dG8vY2hldnJvbGV0/LWNhbWFyby16Mjgu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVktZGt5TWdFX1Bv/RzgzVnFGemNkNzZZ/OHM0QVk0ZGQwNTVj/U1d1N3B5Z0U9"
+        },
+        {
+            "car_id": 6,
+            "car_model": "Thunderbird",
+            "car_manufacturer": "Ford",
+            "manufactured_year": 1966,
+            "engine_type": "V8",
+            "color": "Black",
+            "mileage": 50000,
+            "transmission": "Automatic",
+            "car_image":"https://imgs.search.brave.com/pKphXqhMDbQ7OjRRUM3GCsEoVDRO3Rvll3A_-tdh9Ro/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNlL2Vl/LzFjLzNlZWUxYzI2/NjE1NDdmMjM0ZDVi/MDAzN2FhMzc1Nzdi/LmpwZw"
+        }
+    ]
+}

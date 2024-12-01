@@ -1,0 +1,226 @@
+:root {
+    --main-radius: 10px;
+    --main-padding: 25px;
+    --lightgreen: #D5E8D4;
+    --darkgreen: #336600;
+    --yellowish: #FFFF88;
+    --lightblue: #CCE5FF;
+    --lightpink: #FFCCCC;
+    --blueishgrey: #BAC8D3;
+    --lightorange: #FFE1C7;
+    --grey: #808080;
+}
+
+.container {
+    height: 150vh;
+}
+
+.navbar {
+    background: var(--grey);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar .myportfolio {
+    float: left;
+    color: #FFFF33;
+}
+
+.navbar a {
+    float: right;
+    font-family: Arial;
+    font-size: 20px;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: #33ff88;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#About {
+    background: var(--lightgreen);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+.image img {
+    width: 300px;
+    height: 250px;
+    border: 5px solid #336600;
+}
+
+.Introduction {
+    text-align: center;
+}
+
+.Introduction #name {
+    font-family: Georgia;
+    color: #512683;
+}
+
+.Introduction #aboutme {
+    font-family: Times New Roman;
+    text-align: justify;
+    font-size: 20px;
+    color: #808080;
+}
+
+.section-aboutme {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+#Education {
+    background: var(--grey);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+.details {
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+#Skills {
+    background: var(--yellowish);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+.section-skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills #skillimage {
+    width: 80px;
+    height: 80px;
+}
+
+#projects {
+    background: var(--lightgreen);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+.section-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project #projectimage {
+    width: 120px;
+    height: 76px;
+}
+
+#Blogs {
+    background: var(--lightorange);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+
+footer {
+    background: var(--grey);
+    border-radius: var(--main-radius);
+    text-align: center;
+    font-size: 20px;
+    padding: var(--main-padding);
+    overflow: hidden;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+/* Media Query for Screens Less Than 500px */
+@media (max-width: 500px) {
+    .navbar a {
+        display: none; /* Hide navigation items by default */
+    }
+
+    .navbar .hamburger {
+        display: block; /* Show hamburger icon */
+        float: right; /* Align to the right */
+    }
+
+    .navbar.active a {
+        display: block; /* Show navigation items when hamburger is clicked */
+        float: none; /* Stack navbar items vertically */
+        text-align: left; /* Align text to the left */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .section-aboutme {
+        grid-template-columns: 1fr; /* Stack elements vertically */
+    }
+
+    .image img {
+        width: 100%; /* Full width for images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #Education .details {
+        padding-left: 20px; /* Reduce padding for readability */
+    }
+
+    .section-skills {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+    }
+
+    .section-projects {
+        grid-template-columns: repeat(1, 1fr); /* Change to 1 column */
+    }
+
+    .skills #skillimage {
+        width: 60px; /* Adjust skill images size */
+        height: 60px;
+    }
+
+    .project #projectimage {
+        width: 100px; /* Adjust project images size */
+        height: 60px;
+    }
+
+    footer {
+        font-size: 18px; /* Adjust font size for footer */
+    }
+
+    a img {
+        width: 25px; /* Adjust icon size */
+        height: 25px;
+        margin-left: 20px; /* Adjust margin */
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleNavbar() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar"> 
+            <div class="hamburger" onclick="toggleNavbar()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="#Blogs">Blogs</a>
+            <a href="#Certifications">Certifications</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Education">Education</a>  
+            <a href="#Projects">Projects</a>
+            <a href="#About Me">About Me</a>
+            <a class="myportfolio" href="#">My Portfolio</a>
+        </div>
+        
+        <div id="About Me">
+            <h2>About Me</h2>
+            <div class="section-aboutme">
+                <div class="image">
+                    <img src="./Assets/UserImage.jpg" alt="User Image">
+                </div>
+                <div class="Introduction">
+                    <h2 id="name"> Hello, I am Manjukesh Ponguluru</h2>
+                    <p id="aboutme">I am a graduate student at University of New Haven, majoring in computer science. I have an adept in learning new technologies and being up to date. Proven ability to perform complex problems into advantageous solutions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="section-projects">
+                <div class="project">
+                    <img id="projectimage" src="./Assets/Agile.jpg" alt="Agile Methodologies">
+                    <h4 class="projectname"><b>Agile Methodologies</b></h4>
+                </div>
+                <div class="project">
+                    <img id="projectimage" src="./Assets/BlockChain.jpg" alt="Block Chain Technologies">
+                    <h4 class="projectname"><b>Block Chain Technologies</b></h4>
+                </div>
+                <div class="project">
+                    <img id="projectimage" src="./Assets/Transport.jpg" alt="Traffic Violation Detection">
+                    <h4 class="projectname"><b>Traffic Violation Detection</b></h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="Education">
+            <h2>Education</h2>
+            <p class="details">
+                <b>Master Of Science | Aug 2023 - May 2025 | University Of New Haven</b>
+                <br>MS in Computer Science, Tagliatela College of Engineering, CGPA: 3.5/4.0
+                <br><br>
+                <b>Bachelor of Technology in Computer Science | June 2019 - March 2023 | SRM University</b>
+            </p>
+        </div>   
+
+        <div id="Skills">
+          <h2>Skills</h2>
+          <div class="section-skills">
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/C.jpg">
+                  <h4 class="skillname"><b>C Programming</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/C++.jpg">
+                  <h4 class="skillname"><b>C++ Programming</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/Java.jpg">
+                  <h4 class="skillname"><b>Java</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/AWS.jpg">
+                  <h4 class="skillname"><b>AWS</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/Azure.jpg">
+                  <h4 class="skillname"><b>Azure</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/Dotnet.jpg">
+                  <h4 class="skillname"><b>Dotnet</b></h4>
+              </div>
+              <div class="skills">
+                  <img id="skillimage" src="./Assets/Python.jpg">
+                  <h4 class="skillname"><b>Python</b></h4>
+              </div>
+          </div>
+
+        <div id="Blogs">
+            <h2>Blogs</h2>
+            <p>
+                <b>Blog 1:</b> <a href="#">Understanding Data Structures</a>
+                <br>
+                <b>Blog 2:</b> <a href="#">Getting Started with Python</a>
+                <br>
+                <b>Blog 3:</b> <a href="#">Top Java Libraries in 2024</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Manjukesh Ponguluru. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
