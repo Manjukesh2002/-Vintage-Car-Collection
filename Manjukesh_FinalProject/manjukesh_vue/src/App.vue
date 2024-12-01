@@ -19,7 +19,7 @@ import CarsList from "./components/CarsList.vue";
       }
     },methods:{
       async fetchCarDetails(){
-        const res = await fetch("http://localhost:9143/api");
+        const res = await fetch("https://vintage-car-collection.onrender.com/api");
         const carsData = await res.json();
         return carsData[0].cars;
       }
