@@ -87,6 +87,7 @@
 .section-aboutme {
     display: grid;
     grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
     gap: 20px;
 }
 
@@ -110,6 +111,7 @@
 .section-skills {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     gap: 20px;
 }
 
@@ -131,6 +133,7 @@
 .section-projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     gap: 40px;
 }
 
@@ -185,6 +188,7 @@ a img {
 
     .section-aboutme {
         grid-template-columns: 1fr; /* Stack elements vertically */
+        grid-template-rows: 1fr;
     }
 
     .image img {
